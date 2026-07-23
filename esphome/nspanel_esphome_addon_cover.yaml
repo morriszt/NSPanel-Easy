@@ -19,9 +19,9 @@ substitutions:
   TAG_ADDON_COVER: nspanel.addon.cover
 
 esphome:
-  platformio_options:
-    build_flags:
-      - -D NSPANEL_EASY_ADDON_COVER
+  # platformio_options:
+  build_flags:
+    - -D NSPANEL_EASY_ADDON_COVER
 
 cover:
   - id: cover_embedded
